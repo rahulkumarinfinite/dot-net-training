@@ -21,14 +21,14 @@ namespace CodeChallenge1
 {
     class Solution1
     {
-        public string str,str2,str3;
+        public string str;
         public void remove()
         {
             Console.WriteLine("input the string");
             str = Console.ReadLine();
             Console.WriteLine("input the position");
             int a = int.Parse(Console.ReadLine());
-           // string str2=str.Remove(a,a);
+
             str = str.Remove(a, 1);
 
             Console.WriteLine("The output will be : ");

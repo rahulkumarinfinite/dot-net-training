@@ -35,19 +35,6 @@ namespace CodeChallenge1
 
            
             Console.WriteLine(str3+str4+str2);
-
-
-
-
-
-
-
-
-
-
-
-            
-
         }
     }
 
