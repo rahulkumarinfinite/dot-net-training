@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <!--Question 1-->
+    <!--<h3>Multiplication and Division</h3>
+     1st number <input type="number" id="num1" ><br/>
+    2nd number  <input type="number" id="num2" ><br/>
+      <button onclick="calculate()">Multiply</button>
+      <p id="mul"></p>
+      <button onclick="calculate1()">Division</button>
+      <p id="div"></p>
+
+      <script>
+
+          function calculate() {
+              let a = parseFloat(document.getElementById("num1").value);
+              let b = parseFloat(document.getElementById("num2").value);
+              let multiply = a * b;
+
+              document.getElementById("mul").innerHTML =
+                  "The result is: " + multiply ;
+          }
+          function calculate1() {
+              let a = parseFloat(document.getElementById("num1").value);
+              let b = parseFloat(document.getElementById("num2").value);
+
+              let divide =  a / b ;
+              document.getElementById("div").innerHTML =
+                  "The result is: " + divide;
+          }
+      </script>-->
+    <!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--Question 2-->
+    <!--<script>
+        function iterate() {
+            for (let i = 0; i <= 15; i++) {
+                if (i % 2 === 0) {
+                  console.log(i + " is even");
+
+                } else {
+                   console.log(i + " is odd");
+
+                }
+            }
+        }
+        iterate()
+
+    </script>-->
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-------Question 3-->
+    <!--<button id="mbtn">click</button>
+
+    <script>
+
+        document.getElementById("mbtn").addEventListener("click", function () {
+            console.log("Button click");
+            alert("Button click");
+        });
+    </script>-->
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!------Question 4----->
+    <!--<table border="1">
+        <tr><td> 0</td></tr>
+        <tr><td> 1</td></tr>
+        <tr><td> 2</td></tr>
+        <tr><td> 3</td></tr>
+    </table>
+
+
+    <script>
+        $("table tr:odd").hide();
+    </script>-->
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--------Question 5------------>
+    <!--<div>
+        <h1>Tthis is h1 inside the div</h1>
+    </div>
+
+    <script>
+        $("div > h1").css("background-color", "blue");
+    </script>-->
+    <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-----Question 6-->
+    <ul>
+        <li>CSHARP</li>
+        <li>SQL</li>
+        <li>ADO</li>
+    </ul>
+
+    <!--<script>
+        $(document).ready(function () {
+            var s = $("li").eq(1);
+            console.log("Selected item:", s.text());
+        });
+    </script-->
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!----Question 7---->
+    <!--<script>
+        $(document).ready(function () {
+            $('ul li').each(function (index) {
+                $(this).prepend(index + ' ');
+            });
+        });
+    </script>-->
+    <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--Question 8--->
+    <input type="text" id="m"  />
+    <div id="ms"></div>
+
+    <script>
+        const i = document.getElementById('m');
+        const me = document.getElementById('ms');
+
+        i.addEventListener('change', function () {
+            const n = document.createElement('p');
+            n.textContent = i.value;
+           ms.appendChild(n);
+        });
+    </script>
+
+
+
+
+</body>
+</html>
